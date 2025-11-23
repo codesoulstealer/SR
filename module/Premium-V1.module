@@ -5,8 +5,8 @@
 
 
 [Rule]
-AND,((DOMAIN-SUFFIX,googlevideo.com), (PROTOCOL,UDP)),REJECT
-AND,((DOMAIN,youtubei.googleapis.com), (PROTOCOL,UDP)),REJECT
+AND,((DOMAIN-SUFFIX,googlevideo.com), (PROTOCOL,UDP)),DIRECT
+AND,((DOMAIN,youtubei.googleapis.com), (PROTOCOL,UDP)),DIRECT
 
 [Url Rewrite]
 # /Modules/YT-Adblocker.module
