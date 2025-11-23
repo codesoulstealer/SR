@@ -1,7 +1,7 @@
 # Last modified Premium-V1: 2025-11-22
 # Last modified youtube.js: 2025-11-22
 #!name=YT Premium
-#!arguments=captionLang:off, lyricLang:off, blockUpload:true, blockImmersive:false, blockShorts:true, debug:false
+#!arguments=captionLang:off, lyricLang:off, blockUpload:false, blockImmersive:false, blockShorts:false, debug:false
 
 
 [Rule]
